@@ -224,6 +224,51 @@ footer{
   font-size:15px;
 }
 
+@media only screen and (max-width:768px){
+  .exclamationError{
+    position:absolute;
+    left:80%;
+    bottom:50%;
+  }
+
+  .infographic-columns{
+    flex-direction:column;
+  }
+
+  .searchBar{
+    flex-direction: column;
+    align-items: center;
+    flex:3;
+  }
+  .searchBar input{
+    width:85%;
+    flex:1;
+  }
+
+  .hero-button{
+    width:87%;
+    margin:10px;
+    flex:1;
+
+  }
+
+  .hero-large-text, .hero-medium-text, .hero-small-text{
+    flex:1;
+  }
+
+  .content {
+    padding-right:50px;
+    padding-left:50px;
+  }
+  .header-button{
+    width:25%;
+  }
+
+  .store-availability{
+    flex-direction: column;
+  }
+
+}
 
 @media only screen and (max-width: 560px){
 
@@ -270,52 +315,6 @@ footer{
   .hero-large-text, .hero-medium-text, .hero-small-text{
     flex:0;
   }
-}
-
-@media only screen and (max-width:768px){
-  .exclamationError{
-    position:absolute;
-    left:80%;
-    bottom:50%;
-  }
-
-  .infographic-columns{
-    flex-direction:column;
-  }
-
-  .searchBar{
-    flex-direction: column;
-    align-items: center;
-    flex:3;
-  }
-  .searchBar input{
-    width:85%;
-    flex:1;
-  }
-
-  .hero-button{
-    width:87%;
-    margin:10px;
-    flex:1;
-
-  }
-
-  .hero-large-text, .hero-medium-text, .hero-small-text{
-    flex:1;
-  }
-
-  .content {
-    padding-right:50px;
-    padding-left:50px;
-  }
-  .header-button{
-    width:25%;
-  }
-
-  .store-availability{
-    flex-direction: column;
-  }
-
 }
 
 @media only screen and (min-width:900px){
