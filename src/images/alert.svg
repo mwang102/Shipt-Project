@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="69px" viewBox="0 0 69 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Alert</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.5%" y="-38.0%" width="112.9%" height="187.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Entry-Field-/-CTA---Error" transform="translate(-573.000000, 14.000000)">
+            <g id="Entry-Field-/-CTA" filter="url(#filter-1)">
+                <g id="Alert" transform="translate(597.000000, 0.000000)">
+                    <circle id="Circle" stroke="#EF7C42" stroke-width="1.5" cx="10.5" cy="15.5" r="9.75"></circle>
+                    <text id="!" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" line-spacing="32" letter-spacing="-0.5" fill="#EF7C42">
+                        <tspan x="8.41796875" y="16">!</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
